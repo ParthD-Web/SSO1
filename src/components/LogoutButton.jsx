@@ -10,7 +10,7 @@ const LogoutButton = () => {
         backgroundColor: 'white',
         color: 'black',
         padding: '5px 10px',
-        borderRadius: '20px',
+        borderRadius: '10px',
       }}
       onClick={() =>
         logout({ logoutParams: { returnTo: window.location.origin } })
